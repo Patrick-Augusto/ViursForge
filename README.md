@@ -6,7 +6,7 @@ Ferramenta para criar vírus programada em Python
 apt install git -y
 ```
 ```
-git clone https://github.com/Euronymou5/VenoM.git
+git clone https://github.com/Patrick-Augusto/ViursForge.git
 ```
 ```
 cd VenoM
