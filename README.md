@@ -1,4 +1,4 @@
-# VirusForge
+# ViursForge
 
 Ferramenta para criar vírus programada em Python
 # Instalação
