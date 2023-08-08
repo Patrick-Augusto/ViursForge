@@ -38,7 +38,7 @@ def android():
     print('[10] Grave.apk')
     print('[11] Dendroid.apk')
     print('[00] Voltar ao menu princiapl')
-    print('[99] Salir')
+    print('[99] Sair')
     
     elegir2 = int(input('Selecione uma opcao:: '))
     if elegir2 == 1:
@@ -156,7 +156,7 @@ def windows():
     elif elegir3 == 99:
         exit()
     else:
-        print('Error opcion invalida')
+        print('Error opcao invalida')
         time.sleep(2)
         os.system("clear")
         print(logo)
