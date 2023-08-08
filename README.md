@@ -5,17 +5,8 @@
 
 O Víurs Forge é uma ferramenta desenvolvida em Python que permite gerar e baixar vários tipos de arquivos maliciosos, incluindo APKs para Android e scripts para Windows e Linux. Esta ferramenta é projetada para fins educacionais e deve ser usada com responsabilidade.
 
-'''
-888     888   888   888     888     8888888b.         .d8888b.
-888     888   888   888     888     888   "Y88b      d88P  Y88b
-888     888   888   888     888     888   d88P       Y88b.
-Y88b   d88P   888   888     888     8888888P"         "Y888b.
- Y88b d88P    888   888     888     888 T88b             "Y88b. 
-  Y88o88P     888   888     888     888  T88b              "888
-   Y888P      888   Y88b. .d88P     888   T88b       Y88b  d88P 
-    Y8P       888    "Y88888P"      888    T88b       "Y8888P"  
-    '''
-
+<img width="489" alt="image" src="https://github.com/Patrick-Augusto/ViursForge/assets/79328506/65db9dc8-d36c-442f-b6ea-8b00cf72c5a7">
+    
 ## Funcionalidades
 
 - Gere arquivos maliciosos para diferentes sistemas operacionais.
