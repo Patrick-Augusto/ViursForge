@@ -73,8 +73,3 @@ Este projeto é destinado apenas para fins educacionais e de aprendizado. Não �
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
----
-
-Certifique-se de substituir `Patrick-Augusto` pelo seu nome de usuário no GitHub. Lembre-se de ajustar as informações de contato, o aviso legal e a licença conforme necessário para se adequar ao seu projeto. Se você tiver mais detalhes ou instruções específicas para adicionar à documentação, sinta-se à vontade para fazê-lo.
-```
