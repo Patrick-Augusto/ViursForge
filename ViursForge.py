@@ -25,7 +25,7 @@ Y88b   d88P   888   888     888     8888888P"         "Y888b.
 
 def android():
     print(' ')
-    print('\nIngresa una opcion')
+    print('\nSelecione uma opcao: ')
     print('[1] Whatsapp spy.apk')
     print('[2] facebook.apk')
     print('[3] Fobus.apk')
