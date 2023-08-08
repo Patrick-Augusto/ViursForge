@@ -48,7 +48,7 @@ Siga estas etapas para configurar e usar o Vírus Forge:
 5. Inicie o Vírus Forge:
 
    ```bash
-   python3 virus_forge.py
+   python3 ViursForge.py
    ```
 
 ## Uso
