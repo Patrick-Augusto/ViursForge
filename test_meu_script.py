@@ -1,5 +1,5 @@
-from unittest import mock
 import unittest
+from unittest import mock
 from meu_script import android, windows, linux, inicio
 
 class TestAndroidDownload(unittest.TestCase):
@@ -20,8 +20,6 @@ class TestAndroidDownload(unittest.TestCase):
         ]
         mock_input.assert_has_calls(expected_calls, any_order=False)
         mock_os_system.assert_called()
-        
-        pass
 
 class TestWindowsDownload(unittest.TestCase):
     @mock.patch('builtins.input', side_effect=['2', '00'])
@@ -42,8 +40,6 @@ class TestWindowsDownload(unittest.TestCase):
         mock_input.assert_has_calls(expected_calls, any_order=False)
         mock_os_system.assert_called()
 
-pass  
-
 class TestLinuxDownload(unittest.TestCase):
     @mock.patch('builtins.input', side_effect=['3', '00'])
     @mock.patch('os.system', side_effect=lambda x: None)  # Para evitar chamadas reais do sistema
@@ -62,7 +58,6 @@ class TestLinuxDownload(unittest.TestCase):
         ]
         mock_input.assert_has_calls(expected_calls, any_order=False)
         mock_os_system.assert_called()
-pass
 
 if __name__ == '__main__':
     unittest.main()
