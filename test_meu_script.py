@@ -1,6 +1,6 @@
 import unittest
 from unittest import mock
-from meu_script import android, windows, linux, inicio
+from ViursForge import android, windows, linux, inicio
 
 class TestAndroidDownload(unittest.TestCase):
     @mock.patch('builtins.input', side_effect=['1', '00'])
